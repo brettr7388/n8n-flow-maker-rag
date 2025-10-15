@@ -1,0 +1,194 @@
+{
+  "1_post_everywhere.json": {
+    "tags": [
+      "social_media",
+      "multi_platform",
+      "scheduling",
+      "google_sheets"
+    ],
+    "complexity": "high",
+    "node_count": 23,
+    "use_cases": [
+      "content_distribution",
+      "social_media_automation"
+    ],
+    "integrations": [
+      "blotato",
+      "google_sheets"
+    ],
+    "priority": "VERY_HIGH",
+    "features": [
+      "error_handling",
+      "scheduling",
+      "data_transformation"
+    ]
+  },
+  "2_email_to_longform_thread.json": {
+    "tags": [
+      "social_media",
+      "ai",
+      "email",
+      "content_generation"
+    ],
+    "complexity": "high",
+    "node_count": 19,
+    "use_cases": [
+      "email_automation",
+      "ai_content",
+      "social_media"
+    ],
+    "integrations": [
+      "gmail",
+      "langchain",
+      "openai",
+      "blotato"
+    ],
+    "priority": "VERY_HIGH",
+    "features": [
+      "ai_agent",
+      "email_trigger",
+      "multi_platform_posting"
+    ]
+  },
+  "3_hackernews_to_ai_videos.json": {
+    "tags": [
+      "ai",
+      "video_generation",
+      "social_media",
+      "hackernews"
+    ],
+    "complexity": "very_high",
+    "node_count": 36,
+    "use_cases": [
+      "ai_video",
+      "content_automation",
+      "trend_monitoring"
+    ],
+    "integrations": [
+      "blotato",
+      "openai",
+      "hackernews",
+      "langchain"
+    ],
+    "priority": "VERY_HIGH",
+    "features": [
+      "ai_agent",
+      "error_handling",
+      "retry_logic",
+      "conditional_branching",
+      "async_operations"
+    ]
+  },
+  "4_viral_news_to_avatar.json": {
+    "tags": [
+      "ai",
+      "video_generation",
+      "news",
+      "social_media"
+    ],
+    "complexity": "very_high",
+    "node_count": 35,
+    "use_cases": [
+      "ai_video",
+      "news_automation",
+      "viral_content"
+    ],
+    "integrations": [
+      "perplexity",
+      "openai",
+      "blotato",
+      "http_request"
+    ],
+    "priority": "VERY_HIGH",
+    "features": [
+      "ai_research",
+      "error_handling",
+      "conditional_logic",
+      "async_operations"
+    ]
+  },
+  "5_instagram_carousels_ai_chat.json": {
+    "tags": [
+      "social_media",
+      "instagram",
+      "ai",
+      "interactive"
+    ],
+    "complexity": "very_high",
+    "node_count": 29,
+    "use_cases": [
+      "instagram_automation",
+      "ai_chat",
+      "carousel_creation"
+    ],
+    "integrations": [
+      "chat_trigger",
+      "langchain",
+      "openai",
+      "blotato"
+    ],
+    "priority": "VERY_HIGH",
+    "features": [
+      "conversational_ai",
+      "memory_buffer",
+      "image_generation",
+      "conditional_logic"
+    ]
+  },
+  "6_ai_avatar_trending_news.json": {
+    "tags": [
+      "ai",
+      "video_generation",
+      "trending",
+      "news"
+    ],
+    "complexity": "high",
+    "node_count": 27,
+    "use_cases": [
+      "ai_video",
+      "trend_monitoring",
+      "news_automation"
+    ],
+    "integrations": [
+      "hackernews",
+      "http_request",
+      "openai",
+      "langchain",
+      "blotato"
+    ],
+    "priority": "VERY_HIGH",
+    "features": [
+      "ai_agent",
+      "trend_discovery",
+      "multi_platform_distribution"
+    ]
+  },
+  "7_repost_tiktok_videos.json": {
+    "tags": [
+      "social_media",
+      "tiktok",
+      "video",
+      "automation"
+    ],
+    "complexity": "medium_high",
+    "node_count": 21,
+    "use_cases": [
+      "video_automation",
+      "content_distribution",
+      "tiktok"
+    ],
+    "integrations": [
+      "rss",
+      "http_request",
+      "google_drive",
+      "code"
+    ],
+    "priority": "VERY_HIGH",
+    "features": [
+      "rss_monitoring",
+      "api_interactions",
+      "file_storage",
+      "custom_logic"
+    ]
+  }
+}

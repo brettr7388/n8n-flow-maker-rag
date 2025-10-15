@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.env
+
+# Node
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+backend/data/embeddings/
+backend/data/n8n_docs/
+
+# RAG System (large files, git-ignored)
+backend/rag_system/raw_templates/
+backend/rag_system/processed_templates/
+backend/rag_system/embeddings/
+backend/rag_system/generated_workflows/
+backend/rag_system/validation/
+
+# Conversations
+backend/conversations.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
